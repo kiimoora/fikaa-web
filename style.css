@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+span{
+    color: sienna;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and(max-width: 1200px){
+    .main-container{
+        width: 90%;
+    }
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.logo{
+    display:  flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: sienna;
+}
+
+/* Hero */
+
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-left .pre-title{
+    letter-spacing: 0.4rem;
+    color: sienna;
+    font-weight: 400;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.hero-right img{
+    width: 80%;
+}
+
+/* about */
+#about{
+    padding: 6rem 0;
+}
+
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.about-left img{
+    width: 80%;
+}
+
+/* Education */
+#education{
+    padding: 6rem 0;
+}
+
+.education-title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.education-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+
+.education-item{
+    background-color: sandybrown;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Contact */
+#contact{
+    padding: 6rem 0;
+}
+
+.contact-title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.contact-left div{
+    margin-bottom: 1.5rem;
+}
+
+.contact-left input, textarea{
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    border: 1px solid sienna;
+    border-radius: 3px;
+    resize: none;
+} 
+
+.input-button{
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    border-radius: 3px;
+}
+
+.contact-item{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.contact-item .contact-icon{
+    margin-right: 2rem;
+    padding: 1rem;
+    background-color: rgb(255, 204, 159);
+}
+
+
+
+
+/* Footer */
+#footer{
+    padding: 4rem;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer-icon{
+    margin-bottom: 2rem;
+}
+
+
+.footer-icon a{
+    margin: 0 1rem;
+    text-decoration: none;
+}
